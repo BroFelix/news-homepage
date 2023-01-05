@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('../assets/fonts/Inter-VariableFont_slnt,wght.ttf') format('truetype-variations'), url('../assets/fonts/Inter-VariableFont_slnt,wght.ttf') format('truetype-variations');
+    font-weight: 100 1000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    height: 90vh;
+    width: 85vw;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    background-color: hsl(36, 100%, 99%);
+    font-family: 'Inter';
+}
+
+header {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.125rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul li {
+    float: left;
+    margin-left: 0.5em;
+}
+
+nav ul li a {
+    color: hsl(236, 13%, 42%);
+    text-decoration: none;
+    padding: 0.25em 1em;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: hsl(35, 77%, 62%);
+}
+
+h1 {
+    font-weight: 800;
+    font-family: 'Inter';
+}
+
+aside {
+    background-color: hsl(240, 100%, 5%);
+    float: right;
+    height: 400px;
+    width: 300px;
+    padding: 10px;
+}
+
+aside h2 {
+    color: hsl(35, 77%, 62%);
+}
+
+aside h3 {
+    color: hsl(36, 100%, 99%);
+}
+
+aside p {
+    color: hsl(233, 8%, 79%);
+}
+
+#logo {
+    height: 32px;
+    width: 32px;
+}
+
+#picture {
+    height: 300px;
+    width: 1000px;
+}
+
+#main-wrapper {
+    columns: 2;
+}
+
+#text {
+    display: block;
+    columns: 2;
+}
+
+#title {
+    display: inline-block;
+    font-size: 56px;
+    font-weight: 800;
+    font-family: 'Inter', regular;
+}
+
+#description {
+    display: inline-block;
+}
+
+#description-text {
+    font-size: 20px;
+    font-weight: 400;
+    color: hsl(236, 13%, 42%);
+    display: block;
+}
+
+#readmore {
+    height: 20px;
+    width: 125px;
+    display: block;
+    font-family: 'Inter', regular;
+    text-transform: uppercase;
+    padding: 12px;
+    position: center;
+    text-align: center;
+    color: hsl(36, 100%, 99%);
+    background-color: hsl(5, 85%, 63%);
+    text-decoration-line: none;
+}
+
+#ads {
+    columns: 3;
+}
+
+.ad-title {
+    color: hsl(36, 100%, 99%);
+    size: 28px;
+}
+
+.logo img {
+    height: 64px;
+    width: 64px;
+}
+
+.col {
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.attribution {
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    position: absolute;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
