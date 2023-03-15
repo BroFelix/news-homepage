@@ -23,7 +23,7 @@ Very dark blue: hsl(240, 100%, 5%)
 
 ## Typography
 
-### Body Copy
+### Body
 
 - Font size (paragraph): 15px
 
